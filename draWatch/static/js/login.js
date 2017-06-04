@@ -19,7 +19,6 @@ if(userFBID!="" && userName!="" && userPhotoURL!=""){
 	setCookie("cocokua_user_photo", userPhotoURL, 1);
 }
 
-console.log("Nurzh kotak");
 
 /** FB initial **/
 window.fbAsyncInit = function() {

@@ -15,14 +15,6 @@
 <!-- Video and Audio Chat -->
 
 <div id="left">
-	<div class='container'>
-		<!-- <div class='row'>
-			<button type="button" class="btn btn-primary" id='phone-on' data-toggle="modal" data-target="#myModal">
-				<span class='glyphicon glyphicon-earphone'></span> Open My Phone</button>
-			<button type="button" class="btn btn-danger" id='phone-off' style='display:none'>Close My Phone</button>
-			<button type="button" class="btn btn-success" id='call' style='display:none'>Call My Freinds</button>
-		</div> -->
-	</div>
 	<div id="canvas">		
 		<!-- Painting Tools -->
 		<div id='wrapper'>
@@ -87,50 +79,6 @@
 		</div>
 	</div>
 </div>
-<!-- Video conferencing -->
-<div id="videoChat">
-	<div id="draggable" class="ui-widget-content" style="display:none">
-		<div id="video-display" class='video-display'>
-        </div>
-        <div class="but-container">
-	 		<button id="facetime" class="btn btn-success" style="display:none">
-	            <span class="glyphicon glyphicon-facetime-video"></span>
-	        </button>
-	        <button id="earphone" class="btn btn-success" style="display:none">
-	        	<span class="glyphicon glyphicon-earphone"></span>
-	        </button>
-	        <button id="hangup" class="btn btn-danger">
-	            <span class="glyphicon glyphicon-ban-circle"></span>
-	        </button> 
-	        <button id="close" class="btn btn-warning" style='display:none'>Close</button>
-    	</div>
-	</div>
-	<!-- Local video -->
-	<div id="draggable-me" class="ui-widget-content" style="display:none">
-		<div id="video-display-me">
-        </div>
-        <button id="close" class="btn btn-warning">Close</button>
-	</div>
-</div>
-
-<!--Popup Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">請選擇你要開啟的模式</h4>
-        </div>
-        <div class="modal-body">
-          <button class='btn btn-primary' id='open-video' data-dismiss="modal">開啟視訊和語音通話</button>
-          <button class='btn btn-primary' id='open-audio' data-dismiss="modal">開啟語音通話</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
 {% endblock %}
 
 {% block script %}
@@ -167,7 +115,4 @@
 <script src="../static/sweetalert/sweetalert.min.js"></script>
 <script src='../static/js/memberlist.js'></script>
 <script src='../static/js/canvas_sync.js'></script>
-<script src='../static/js/webrtc.js'></script>
-<script src='../static/js/sound.js'></script>
-<script src='../static/js/phone.js'></script>
 {% endblock %}
