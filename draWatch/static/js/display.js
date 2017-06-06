@@ -1,4 +1,4 @@
-var stickerNum = 44;
+var stickerNum = 34;
 
 addSticker();
 

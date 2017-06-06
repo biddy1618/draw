@@ -210,7 +210,7 @@ $("#sticker").click(function(){
 	showSetting(this.id);
 	stickerWidth = $("#"+stickerID)[0].naturalWidth;
 	stickerHeight = $("#"+stickerID)[0].naturalHeight;
-	$( "canvas" ).not( "#preview_text,#preview_brush" ).css("cursor", "url(../static/images/img/transparent_sticker/"+stickerID+"_t60.png) "+stickerWidth/2+" "+stickerHeight/2+", default");
+	$( "canvas" ).not( "#preview_text,#preview_brush" ).css("cursor", "url(../static/images/img/transparent_sticker/"+stickerID+".png) "+stickerWidth/2+" "+stickerHeight/2+", default");
 });
 
 $("#color_brush").on('change', function(){
@@ -229,7 +229,7 @@ $('#sticker-holder').on('click','.sticker-img',function(){
 	stickerID = this.id;
 	stickerWidth = $("#"+stickerID)[0].naturalWidth;
 	stickerHeight = $("#"+stickerID)[0].naturalHeight;
-	$( "canvas" ).not( "#preview_text,#preview_brush" ).css("cursor", "url(../static/images/img/transparent_sticker/"+stickerID+"_t60.png) "+stickerWidth/2+" "+stickerHeight/2+", default");
+	$( "canvas" ).not( "#preview_text,#preview_brush" ).css("cursor", "url(../static/images/img/transparent_sticker/"+stickerID+".png) "+stickerWidth/2+" "+stickerHeight/2+", default");
 });
 $("#canvasonoffswitch").change(function() {
     if(this.checked) {

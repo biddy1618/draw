@@ -138,7 +138,7 @@ window.fbAsyncInit = function() {
 
 $("#invitebutton").click(function(){
 	var vars = window.location.href.split("\/");
-	var url = /*vars[2]*/ /*"letsyoutube.herokuapp.com"*/ "192.249.26.15:5000" + "/r_"+ videoID+ "_n_"+ roomID;
+	var url = /*vars[2]*/ /*"letsyoutube.herokuapp.com"*/ "192.249.29.198:5000" + "/r_"+ videoID+ "_n_"+ roomID;
 	console.log(url + " Dauren loh");	
 	// url = "letsyoutube.herokuapp.com/r_2cf9xo1S134_n_fYP9GNbZMfy";
 	// console.log(url);
